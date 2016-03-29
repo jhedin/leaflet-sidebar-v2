@@ -1,7 +1,7 @@
 {
-  "name": "sidebar-v2",
+  "name": "leaflet-sidebar-v2",
   "version": "0.3.0",
-  "homepage": "https://github.com/Turbo87/sidebar-v2",
+  "homepage": "https://github.com/jhedin/leaflet-sidebar-v2",
   "authors": [
     "Tobias Bieniek <tobias.bieniek@qsc.de>"
   ],
