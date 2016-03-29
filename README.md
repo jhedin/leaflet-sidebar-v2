@@ -1,4 +1,9 @@
-# sidebar-v2
+# leaflet-sidebar-v2
+
+I modified the folder structure a bit so that you can install it with npm.
+
+It expects that $ is available on the page.
+------
 
 A responsive sidebar for mapping libraries like [Leaflet](#leaflet) or [OpenLayers](#openlayers-3).
 

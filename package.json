@@ -1,21 +1,52 @@
 {
-  "name": "sidebar-v2",
-  "version": "0.3.0",
-  "description": "A responsive sidebar for mapping libraries like Leaflet or OpenLayers",
-  "keywords": [
-    "gis",
-    "leaflet",
-    "openlayers",
-    "map"
+  "name": "leaflet-sidebar-v2",
+  "main": "./dist/index.js",
+  "_args": [
+    [
+      "Turbo87/sidebar-v2",
+      "C:\\rep\\air-photo"
+    ]
   ],
-  "homepage": "https://github.com/turbo87/sidebar-v2",
-  "bugs": "https://github.com/turbo87/sidebar-v2/issues",
-  "license": "MIT",
-  "author": "Tobias Bieniek <tobias.bieniek@gmx.de>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/turbo87/sidebar-v2.git"
+  "_from": "turbo87/sidebar-v2",
+  "_id": "sidebar-v2@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/sidebar-v2",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/turbo87/sidebar-v2/master/package.json",
+      "gitUrl": "git://github.com/turbo87/sidebar-v2.git",
+      "httpsUrl": "git+https://github.com/turbo87/sidebar-v2.git",
+      "shortcut": "github:turbo87/sidebar-v2",
+      "ssh": "git@github.com:turbo87/sidebar-v2.git",
+      "sshUrl": "git+ssh://git@github.com/turbo87/sidebar-v2.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "Turbo87/sidebar-v2",
+    "rawSpec": "Turbo87/sidebar-v2",
+    "scope": null,
+    "spec": "github:turbo87/sidebar-v2",
+    "type": "hosted"
   },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/turbo87/sidebar-v2.git#b5223c25a17523f41d5e3406183d3e5bb2fb6ae7",
+  "_shasum": "c2aca7636eb60db81eb8f25e7061ea4c21208eaa",
+  "_shrinkwrap": null,
+  "_spec": "Turbo87/sidebar-v2",
+  "_where": "C:\\rep\\air-photo",
+  "author": {
+    "email": "tobias.bieniek@gmx.de",
+    "name": "Tobias Bieniek"
+  },
+  "bugs": {
+    "url": "https://github.com/turbo87/sidebar-v2/issues"
+  },
+  "dependencies": {},
+  "description": "A responsive sidebar for mapping libraries like Leaflet or OpenLayers",
   "devDependencies": {
     "gulp": "~3.8.7",
     "gulp-clean": "~0.3.1",
@@ -28,7 +59,25 @@
     "gulp-uglify": "~0.3.1",
     "gulp-zip": "~0.5.0"
   },
+  "gitHead": "b5223c25a17523f41d5e3406183d3e5bb2fb6ae7",
+  "homepage": "https://github.com/turbo87/sidebar-v2",
+  "keywords": [
+    "gis",
+    "leaflet",
+    "map",
+    "openlayers"
+  ],
+  "license": "MIT",
+  "name": "sidebar-v2",
+  "optionalDependencies": {},
+  "readme": "# sidebar-v2\r\n\r\nA responsive sidebar for mapping libraries like [Leaflet](#leaflet) or [OpenLayers](#openlayers-3).\r\n\r\nIt is more or less a successor of the [leaflet-sidebar](https://github.com/turbo87/leaflet-sidebar/) plugin, thus the `v2` suffix.\r\n\r\n<a href=\"https://flattr.com/submit/auto?user_id=turbo&url=https%3A%2F%2Fgithub.com%2FTurbo87%2Fsidebar-v2\" target=\"_blank\"><img src=\"https://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" border=\"0\"></a>\r\n\r\n![Demo](doc/sidebar-v2.gif)\r\n\r\n\r\n## [Leaflet](http://leafletjs.com/)\r\n\r\n![Sidebar collapsed](doc/leaflet-1.png) ![Sidebar extended](doc/leaflet-2.png)\r\n\r\nExample code at [`examples/index.html`](examples/index.html) ([Preview](http://turbo87.github.io/sidebar-v2/examples/index.html))\r\n\r\n\r\n## [OpenLayers 3](http://openlayers.org/)\r\n\r\n![Sidebar collapsed](doc/ol3-1.png) ![Sidebar extended](doc/ol3-2.png)\r\n\r\nExample code at [`examples/ol3.html`](examples/ol3.html) ([Preview](http://turbo87.github.io/sidebar-v2/examples/ol3.html))\r\n\r\n\r\n## [OpenLayers 2](http://openlayers.org/two/)\r\n\r\n![Sidebar collapsed](doc/ol2-1.png) ![Sidebar extended](doc/ol2-2.png)\r\n\r\nExample code at [`examples/ol2.html`](examples/ol2.html) ([Preview](http://turbo87.github.io/sidebar-v2/examples/ol2.html))\r\n\r\n\r\n## [Google Maps](https://developers.google.com/maps/)\r\n\r\n![Sidebar collapsed](doc/gmaps-1.png) ![Sidebar extended](doc/gmaps-2.png)\r\n\r\nExample code at [`examples/gmaps.html`](examples/gmaps.html) ([Preview](http://turbo87.github.io/sidebar-v2/examples/gmaps.html))\r\n\r\n\r\n## License\r\n\r\nsidebar-v2 is free software, and may be redistributed under the [MIT license](LICENSE).\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbo87/sidebar-v2.git"
+  },
   "scripts": {
     "test": "gulp lint"
-  }
+  },
+  "version": "0.3.0"
 }
